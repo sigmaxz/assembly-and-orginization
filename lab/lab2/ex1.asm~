@@ -1,0 +1,13 @@
+;
+;
+;
+;
+.orig x3000
+	LD R0, DEC_65
+	LD R1, HEX_41
+	HALT
+;
+;data
+DEC_65 .fill #65
+HEX_41 .fill x41
+.end
